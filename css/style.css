@@ -151,6 +151,19 @@ img{
     color: #fff;
 }
 
+/* Hide initially tab content */
+#tab-1-content,
+#tab-2-content,
+#tab-3-content{
+    display: none;
+}
+
+/* Show the content */
+.show{
+    display: block !important;
+}
+
+
 #tab-1-content .tab-1-content-inner{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
